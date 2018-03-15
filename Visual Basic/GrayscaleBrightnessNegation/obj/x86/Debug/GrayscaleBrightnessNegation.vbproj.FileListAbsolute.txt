@@ -1,0 +1,56 @@
+D:\TUGAS\K U L I A H\SMSTR III\PCD (B) Pengolahan Citra Digital\TK III GrayscaleBrigtnessNegation\project\GrayscaleBrightnessNegation\GrayscaleBrightnessNegation\bin\Debug\GrayscaleBrightnessNegation.exe
+D:\TUGAS\K U L I A H\SMSTR III\PCD (B) Pengolahan Citra Digital\TK III GrayscaleBrigtnessNegation\project\GrayscaleBrightnessNegation\GrayscaleBrightnessNegation\bin\Debug\GrayscaleBrightnessNegation.pdb
+D:\TUGAS\K U L I A H\SMSTR III\PCD (B) Pengolahan Citra Digital\TK III GrayscaleBrigtnessNegation\project\GrayscaleBrightnessNegation\GrayscaleBrightnessNegation\bin\Debug\GrayscaleBrightnessNegation.xml
+D:\TUGAS\K U L I A H\SMSTR III\PCD (B) Pengolahan Citra Digital\TK III GrayscaleBrigtnessNegation\project\GrayscaleBrightnessNegation\GrayscaleBrightnessNegation\obj\x86\Debug\WindowsApplication1.Form1.resources
+D:\TUGAS\K U L I A H\SMSTR III\PCD (B) Pengolahan Citra Digital\TK III GrayscaleBrigtnessNegation\project\GrayscaleBrightnessNegation\GrayscaleBrightnessNegation\obj\x86\Debug\WindowsApplication1.Resources.resources
+D:\TUGAS\K U L I A H\SMSTR III\PCD (B) Pengolahan Citra Digital\TK III GrayscaleBrigtnessNegation\project\GrayscaleBrightnessNegation\GrayscaleBrightnessNegation\obj\x86\Debug\GrayscaleBrightnessNegation.vbproj.GenerateResource.Cache
+D:\TUGAS\K U L I A H\SMSTR III\PCD (B) Pengolahan Citra Digital\TK III GrayscaleBrigtnessNegation\project\GrayscaleBrightnessNegation\GrayscaleBrightnessNegation\obj\x86\Debug\GrayscaleBrightnessNegation.exe
+D:\TUGAS\K U L I A H\SMSTR III\PCD (B) Pengolahan Citra Digital\TK III GrayscaleBrigtnessNegation\project\GrayscaleBrightnessNegation\GrayscaleBrightnessNegation\obj\x86\Debug\GrayscaleBrightnessNegation.xml
+D:\TUGAS\K U L I A H\SMSTR III\PCD (B) Pengolahan Citra Digital\TK III GrayscaleBrigtnessNegation\project\GrayscaleBrightnessNegation\GrayscaleBrightnessNegation\obj\x86\Debug\GrayscaleBrightnessNegation.pdb
+D:\TUGAS\kuliah\perkuliahan\semester 3\PCD\GrayscaleBrightnessNegation\GrayscaleBrightnessNegation\obj\x86\Debug\GrayscaleBrightnessNegation.exe
+D:\TUGAS\kuliah\perkuliahan\semester 3\PCD\GrayscaleBrightnessNegation\GrayscaleBrightnessNegation\obj\x86\Debug\GrayscaleBrightnessNegation.xml
+D:\TUGAS\kuliah\perkuliahan\semester 3\PCD\GrayscaleBrightnessNegation\GrayscaleBrightnessNegation\obj\x86\Debug\GrayscaleBrightnessNegation.pdb
+D:\TUGAS\kuliah\perkuliahan\semester 3\PCD\GrayscaleBrightnessNegation\GrayscaleBrightnessNegation\bin\Debug\GrayscaleBrightnessNegation.exe
+D:\TUGAS\kuliah\perkuliahan\semester 3\PCD\GrayscaleBrightnessNegation\GrayscaleBrightnessNegation\bin\Debug\GrayscaleBrightnessNegation.pdb
+D:\TUGAS\kuliah\perkuliahan\semester 3\PCD\GrayscaleBrightnessNegation\GrayscaleBrightnessNegation\bin\Debug\GrayscaleBrightnessNegation.xml
+D:\TUGAS\kuliah\perkuliahan\semester 3\PCD\GrayscaleBrightnessNegation\GrayscaleBrightnessNegation\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\TUGAS\kuliah\perkuliahan\semester 3\PCD\GrayscaleBrightnessNegation\GrayscaleBrightnessNegation\obj\x86\Debug\WindowsApplication1.Form1.resources
+D:\TUGAS\kuliah\perkuliahan\semester 3\PCD\GrayscaleBrightnessNegation\GrayscaleBrightnessNegation\obj\x86\Debug\WindowsApplication1.Resources.resources
+D:\TUGAS\kuliah\perkuliahan\semester 3\PCD\GrayscaleBrightnessNegation\GrayscaleBrightnessNegation\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\TUGAS\kuliah\perkuliahan\semester 3\PCD\GrayscaleBrightnessNegation\GrayscaleBrightnessNegation\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Asus\Desktop\GrayscaleBrightnessNegation\GrayscaleBrightnessNegation\obj\x86\Debug\GrayscaleBrightnessNegation.exe
+C:\Users\Asus\Desktop\GrayscaleBrightnessNegation\GrayscaleBrightnessNegation\obj\x86\Debug\GrayscaleBrightnessNegation.xml
+C:\Users\Asus\Desktop\GrayscaleBrightnessNegation\GrayscaleBrightnessNegation\obj\x86\Debug\GrayscaleBrightnessNegation.pdb
+C:\Users\Asus\Desktop\GrayscaleBrightnessNegation\GrayscaleBrightnessNegation\bin\Debug\GrayscaleBrightnessNegation.exe
+C:\Users\Asus\Desktop\GrayscaleBrightnessNegation\GrayscaleBrightnessNegation\bin\Debug\GrayscaleBrightnessNegation.pdb
+C:\Users\Asus\Desktop\GrayscaleBrightnessNegation\GrayscaleBrightnessNegation\bin\Debug\GrayscaleBrightnessNegation.xml
+C:\Users\Asus\Desktop\GrayscaleBrightnessNegation\GrayscaleBrightnessNegation\obj\x86\Debug\WindowsApplication1.Form1.resources
+C:\Users\Asus\Desktop\GrayscaleBrightnessNegation\GrayscaleBrightnessNegation\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\Asus\Desktop\GrayscaleBrightnessNegation\GrayscaleBrightnessNegation\obj\x86\Debug\GrayscaleBrightnessNegation.vbproj.GenerateResource.Cache
+D:\TUGAS\kuliah\perkuliahan\semester 3\PCD\sunddit\GrayscaleBrightnessNegation\GrayscaleBrightnessNegation\obj\x86\Debug\GrayscaleBrightnessNegation.exe
+D:\TUGAS\kuliah\perkuliahan\semester 3\PCD\sunddit\GrayscaleBrightnessNegation\GrayscaleBrightnessNegation\obj\x86\Debug\GrayscaleBrightnessNegation.xml
+D:\TUGAS\kuliah\perkuliahan\semester 3\PCD\sunddit\GrayscaleBrightnessNegation\GrayscaleBrightnessNegation\obj\x86\Debug\GrayscaleBrightnessNegation.pdb
+D:\TUGAS\kuliah\perkuliahan\semester 3\PCD\sunddit\GrayscaleBrightnessNegation\GrayscaleBrightnessNegation\bin\Debug\GrayscaleBrightnessNegation.exe
+D:\TUGAS\kuliah\perkuliahan\semester 3\PCD\sunddit\GrayscaleBrightnessNegation\GrayscaleBrightnessNegation\bin\Debug\GrayscaleBrightnessNegation.pdb
+D:\TUGAS\kuliah\perkuliahan\semester 3\PCD\sunddit\GrayscaleBrightnessNegation\GrayscaleBrightnessNegation\bin\Debug\GrayscaleBrightnessNegation.xml
+D:\TUGAS\kuliah\perkuliahan\semester 3\PCD\sunddit\GrayscaleBrightnessNegation\GrayscaleBrightnessNegation\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\TUGAS\kuliah\perkuliahan\semester 3\PCD\sunddit\GrayscaleBrightnessNegation\GrayscaleBrightnessNegation\obj\x86\Debug\WindowsApplication1.Form1.resources
+D:\TUGAS\kuliah\perkuliahan\semester 3\PCD\sunddit\GrayscaleBrightnessNegation\GrayscaleBrightnessNegation\obj\x86\Debug\WindowsApplication1.Resources.resources
+D:\TUGAS\kuliah\perkuliahan\semester 3\PCD\sunddit\GrayscaleBrightnessNegation\GrayscaleBrightnessNegation\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\TUGAS\kuliah\perkuliahan\semester 3\PCD\sunddit\GrayscaleBrightnessNegation\GrayscaleBrightnessNegation\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Homework\Pengolahan Citra Digital\GrayscaleBrightnessNegation\GrayscaleBrightnessNegation\obj\x86\Debug\GrayscaleBrightnessNegation.exe
+D:\Homework\Pengolahan Citra Digital\GrayscaleBrightnessNegation\GrayscaleBrightnessNegation\obj\x86\Debug\GrayscaleBrightnessNegation.xml
+D:\Homework\Pengolahan Citra Digital\GrayscaleBrightnessNegation\GrayscaleBrightnessNegation\obj\x86\Debug\GrayscaleBrightnessNegation.pdb
+D:\Pengolahan Citra Digital\GrayscaleBrightnessNegation\GrayscaleBrightnessNegation\obj\x86\Debug\GrayscaleBrightnessNegation.exe
+D:\Pengolahan Citra Digital\GrayscaleBrightnessNegation\GrayscaleBrightnessNegation\obj\x86\Debug\GrayscaleBrightnessNegation.xml
+D:\Pengolahan Citra Digital\GrayscaleBrightnessNegation\GrayscaleBrightnessNegation\obj\x86\Debug\GrayscaleBrightnessNegation.pdb
+D:\Pengolahan Citra Digital\GrayscaleBrightnessNegation\GrayscaleBrightnessNegation\bin\Debug\GrayscaleBrightnessNegation.exe
+D:\Pengolahan Citra Digital\GrayscaleBrightnessNegation\GrayscaleBrightnessNegation\bin\Debug\GrayscaleBrightnessNegation.pdb
+D:\Pengolahan Citra Digital\GrayscaleBrightnessNegation\GrayscaleBrightnessNegation\bin\Debug\GrayscaleBrightnessNegation.xml
+D:\Pengolahan Citra Digital\GrayscaleBrightnessNegation\GrayscaleBrightnessNegation\obj\x86\Debug\GrayscaleBrightnessNegation.vbprojResolveAssemblyReference.cache
+D:\Pengolahan Citra Digital\GrayscaleBrightnessNegation\GrayscaleBrightnessNegation\obj\x86\Debug\WindowsApplication1.Form1.resources
+D:\Pengolahan Citra Digital\GrayscaleBrightnessNegation\GrayscaleBrightnessNegation\obj\x86\Debug\WindowsApplication1.Resources.resources
+D:\Pengolahan Citra Digital\GrayscaleBrightnessNegation\GrayscaleBrightnessNegation\obj\x86\Debug\GrayscaleBrightnessNegation.vbproj.GenerateResource.Cache
+D:\Git Projects\Image-Enhancement\Visual Basic\GrayscaleBrightnessNegation\obj\x86\Debug\GrayscaleBrightnessNegation.exe
+D:\Git Projects\Image-Enhancement\Visual Basic\GrayscaleBrightnessNegation\obj\x86\Debug\GrayscaleBrightnessNegation.xml
+D:\Git Projects\Image-Enhancement\Visual Basic\GrayscaleBrightnessNegation\obj\x86\Debug\GrayscaleBrightnessNegation.pdb
