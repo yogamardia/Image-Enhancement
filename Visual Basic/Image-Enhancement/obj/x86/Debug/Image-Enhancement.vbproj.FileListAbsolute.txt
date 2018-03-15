@@ -8,3 +8,6 @@ D:\Git Projects\Image-Enhancement\Visual Basic\GrayscaleBrightnessNegation\obj\x
 D:\Git Projects\Image-Enhancement\Visual Basic\GrayscaleBrightnessNegation\obj\x86\Debug\Image-Enhancement.exe
 D:\Git Projects\Image-Enhancement\Visual Basic\GrayscaleBrightnessNegation\obj\x86\Debug\Image-Enhancement.xml
 D:\Git Projects\Image-Enhancement\Visual Basic\GrayscaleBrightnessNegation\obj\x86\Debug\Image-Enhancement.pdb
+D:\Git Projects\Image-Enhancement\Visual Basic\Image-Enhancement\obj\x86\Debug\Image-Enhancement.exe
+D:\Git Projects\Image-Enhancement\Visual Basic\Image-Enhancement\obj\x86\Debug\Image-Enhancement.xml
+D:\Git Projects\Image-Enhancement\Visual Basic\Image-Enhancement\obj\x86\Debug\Image-Enhancement.pdb
