@@ -22,7 +22,7 @@ function varargout = enhance(varargin)
 
 % Edit the above text to modify the response to help enhance
 
-% Last Modified by GUIDE v2.5 15-Mar-2018 23:37:23
+% Last Modified by GUIDE v2.5 16-Mar-2018 00:19:35
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -121,3 +121,32 @@ function exit_btn_Callback(hObject, eventdata, handles)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 close()
+
+
+% --- Executes on button press in noise_btn.
+function noise_btn_Callback(hObject, eventdata, handles)
+% hObject    handle to noise_btn (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+global gray;
+global noise;
+
+noise = imnoise(gray,'salt & pepper');
+axes(handles.axes4);
+imshow(noise);
+
+
+% --- Executes on button press in lpf3.
+function lpf3_Callback(hObject, eventdata, handles)
+% hObject    handle to lpf3 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hint: get(hObject,'Value') returns toggle state of lpf3
+global noise;
+
+filter =ones(3,3);
+
+fimage = filter2(filter,noise,'same');
+axes(handles.axes4);
+imshow(fimage);
