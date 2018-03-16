@@ -16,5 +16,5 @@ Matlab:
 - Median Filter
 - Brightness (soon)
 
-I'm not sure about the Filters part at Matlab, especially how I set the kernels each dimensions. But me and my group are going to fix that wrong code, if available.
+I'm not sure about the filter part, especially how I set the kernels for each dimensions, I'm not sure if that's correct or not. But me and my group are going to fix that wrong code, if available.
 
