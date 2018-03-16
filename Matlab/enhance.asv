@@ -146,7 +146,6 @@ function lpf3_Callback(hObject, eventdata, handles)
 global noise;
 
 f = ones(3,3)/9;
-disp(f)
 fimage = conv2(noise,f);
 axes(handles.axes5);
 imshow(uint8(fimage));
@@ -162,7 +161,6 @@ function lpf5_Callback(hObject, eventdata, handles)
 global noise;
 
 f = ones(5,5)/25;
-disp(f)
 fimage = conv2(noise,f);
 axes(handles.axes5);
 imshow(uint8(fimage));
@@ -178,7 +176,6 @@ function lpf7_Callback(hObject, eventdata, handles)
 global noise;
 
 f = ones(7,7)/49;
-disp(f)
 fimage = conv2(noise,f);
 axes(handles.axes5);
 imshow(uint8(fimage));
@@ -194,7 +191,7 @@ function lpf9_Callback(hObject, eventdata, handles)
 global noise;
 
 f = ones(9,9)/81;
-disp(f)
+disp('LP 9x9 kernel: ', f)
 fimage = filter2(f,noise,'same');
 axes(handles.axes5);
 imshow(fimage/255);
