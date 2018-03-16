@@ -22,7 +22,7 @@ function varargout = enhance(varargin)
 
 % Edit the above text to modify the response to help enhance
 
-% Last Modified by GUIDE v2.5 16-Mar-2018 07:52:00
+% Last Modified by GUIDE v2.5 16-Mar-2018 09:57:56
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -147,7 +147,7 @@ global noise;
 
 f = ones(3,3)/9;
 disp(f)
-fimage = conv2(noise,f);
+fimage = imfilter(noise, f);
 axes(handles.axes5);
 imshow(uint8(fimage));
 
@@ -163,7 +163,7 @@ global noise;
 
 f = ones(5,5)/25;
 disp(f)
-fimage = conv2(noise,f);
+fimage = imfilter(noise, f);
 axes(handles.axes5);
 imshow(uint8(fimage));
 
@@ -179,7 +179,7 @@ global noise;
 
 f = ones(7,7)/49;
 disp(f)
-fimage = conv2(noise,f);
+fimage = imfilter(noise, f);
 axes(handles.axes5);
 imshow(uint8(fimage));
 
@@ -195,9 +195,9 @@ global noise;
 
 f = ones(9,9)/81;
 disp(f)
-fimage = filter2(f,noise,'same');
+fimage = imfilter(noise, f);
 axes(handles.axes5);
-imshow(fimage/255);
+imshow(uint8(fimage));
 
 
 % --- Executes on button press in hpf3.
@@ -212,7 +212,7 @@ global noise;
 f = -1 * ones(3,3);
 f(2,2) = 8;
 disp(f)
-fimage = conv2(noise, f);
+fimage = imfilter(noise, f);
 axes(handles.axes5);
 imshow(uint8(fimage));
 
@@ -227,9 +227,9 @@ function hpf5_Callback(hObject, eventdata, handles)
 global noise;
 
 f = -1 * ones(5,5);
-f(3,3) = 8;
+f(3,3) = 24;
 disp(f)
-fimage = conv2(noise, f);
+fimage = imfilter(noise, f);
 axes(handles.axes5);
 imshow(uint8(fimage));
 
@@ -244,9 +244,9 @@ function hpf7_Callback(hObject, eventdata, handles)
 global noise;
 
 f = -1 * ones(7,7);
-f(4,4) = 8;
+f(4,4) = 48;
 disp(f)
-fimage = conv2(noise, f);
+fimage = imfilter(noise, f);
 axes(handles.axes5);
 imshow(uint8(fimage));
 
@@ -261,8 +261,64 @@ function hpf9_Callback(hObject, eventdata, handles)
 global noise;
 
 f = -1 * ones(9,9);
-f(5,5) = 8;
+f(5,5) = 80;
 disp(f)
-fimage = conv2(noise, f);
+fimage = imfilter(noise, f);
+axes(handles.axes5);
+imshow(uint8(fimage));
+
+
+% --- Executes on button press in median3.
+function median3_Callback(hObject, eventdata, handles)
+% hObject    handle to median3 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hint: get(hObject,'Value') returns toggle state of median3
+global noise;
+
+fimage = medfilt2(noise, [3 3]);
+axes(handles.axes5);
+imshow(uint8(fimage));
+
+
+% --- Executes on button press in median5.
+function median5_Callback(hObject, eventdata, handles)
+% hObject    handle to median5 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hint: get(hObject,'Value') returns toggle state of median5
+global noise;
+
+fimage = medfilt2(noise, [5 5]);
+axes(handles.axes5);
+imshow(uint8(fimage));
+
+
+% --- Executes on button press in median7.
+function median7_Callback(hObject, eventdata, handles)
+% hObject    handle to median7 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hint: get(hObject,'Value') returns toggle state of median7
+global noise;
+
+fimage = medfilt2(noise, [7 7]);
+axes(handles.axes5);
+imshow(uint8(fimage));
+
+
+% --- Executes on button press in median9.
+function median9_Callback(hObject, eventdata, handles)
+% hObject    handle to median9 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hint: get(hObject,'Value') returns toggle state of median9
+global noise;
+
+fimage = medfilt2(noise, [9 9]);
 axes(handles.axes5);
 imshow(uint8(fimage));
