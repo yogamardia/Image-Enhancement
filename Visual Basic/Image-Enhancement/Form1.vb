@@ -51,7 +51,7 @@ Public Class Form1
 
                     rgb = red + green + blue
 
-                    If rgb < 128 Then
+                    If rgb < 255 Then
                         source.SetPixel(x, y, Color.FromArgb(0, 0, 0))
                     Else
                         source.SetPixel(x, y, color.FromArgb(255, 255, 255))
