@@ -158,6 +158,8 @@ else
     noise = imnoise(gray,'salt & pepper');
     axes(handles.axes4);
     imshow(noise);
+
+
 end
 
 
@@ -171,17 +173,11 @@ function lpf3_Callback(hObject, eventdata, handles)
 % Hint: get(hObject,'Value') returns toggle state of lpf3
 global noise;
 
-empty = isempty(get(handles.axes4, 'Children'));
-if (empty == 1)
-    errordlg('Please add noise on grayscaled image first...','Error');
-else
-
-    f = ones(3,3)/9;
-    disp(f)
-    fimage = imfilter(noise, f);
-    axes(handles.axes5);
-    imshow(uint8(fimage));
-end
+f = ones(3,3)/9;
+disp(f)
+fimage = imfilter(noise, f);
+axes(handles.axes5);
+imshow(uint8(fimage));
 
 
 % --- Executes on button press in lpf5.
@@ -193,16 +189,11 @@ function lpf5_Callback(hObject, eventdata, handles)
 % Hint: get(hObject,'Value') returns toggle state of lpf5
 global noise;
 
-empty = isempty(get(handles.axes4, 'Children'));
-if (empty == 1)
-    errordlg('Please add noise on grayscaled image first...','Error');
-else
-    f = ones(5,5)/25;
-    disp(f)
-    fimage = imfilter(noise, f);
-    axes(handles.axes5);
-    imshow(uint8(fimage));
-end
+f = ones(5,5)/25;
+disp(f)
+fimage = imfilter(noise, f);
+axes(handles.axes5);
+imshow(uint8(fimage));
 
 
 % --- Executes on button press in lpf7.
@@ -214,16 +205,11 @@ function lpf7_Callback(hObject, eventdata, handles)
 % Hint: get(hObject,'Value') returns toggle state of lpf7
 global noise;
 
-empty = isempty(get(handles.axes4, 'Children'));
-if (empty == 1)
-    errordlg('Please add noise on grayscaled image first...','Error');
-else
-    f = ones(7,7)/49;
-    disp(f)
-    fimage = imfilter(noise, f);
-    axes(handles.axes5);
-    imshow(uint8(fimage));
-end
+f = ones(7,7)/49;
+disp(f)
+fimage = imfilter(noise, f);
+axes(handles.axes5);
+imshow(uint8(fimage));
 
 
 % --- Executes on button press in lpf9.
@@ -235,16 +221,12 @@ function lpf9_Callback(hObject, eventdata, handles)
 % Hint: get(hObject,'Value') returns toggle state of lpf9
 global noise;
 
-empty = isempty(get(handles.axes4, 'Children'));
-if (empty == 1)
-    errordlg('Please add noise on grayscaled image first...','Error');
-else
-    f = ones(9,9)/81;
-    disp(f)
-    fimage = imfilter(noise, f);
-    axes(handles.axes5);
-    imshow(uint8(fimage));
-end
+f = ones(9,9)/81;
+disp(f)
+fimage = imfilter(noise, f);
+axes(handles.axes5);
+imshow(uint8(fimage));
+
 
 % --- Executes on button press in hpf3.
 function hpf3_Callback(hObject, eventdata, handles)
@@ -255,17 +237,13 @@ function hpf3_Callback(hObject, eventdata, handles)
 % Hint: get(hObject,'Value') returns toggle state of hpf3
 global noise;
 
-empty = isempty(get(handles.axes4, 'Children'));
-if (empty == 1)
-    errordlg('Please add noise on grayscaled image first...','Error');
-else
-    f = -1 * ones(3,3);
-    f(2,2) = 8;
-    disp(f)
-    fimage = imfilter(noise, f);
-    axes(handles.axes5);
-    imshow(uint8(fimage));
-end
+f = -1 * ones(3,3);
+f(2,2) = 8;
+disp(f)
+fimage = imfilter(noise, f);
+axes(handles.axes5);
+imshow(uint8(fimage));
+
 
 % --- Executes on button press in hpf5.
 function hpf5_Callback(hObject, eventdata, handles)
@@ -276,17 +254,13 @@ function hpf5_Callback(hObject, eventdata, handles)
 % Hint: get(hObject,'Value') returns toggle state of hpf5
 global noise;
 
-empty = isempty(get(handles.axes4, 'Children'));
-if (empty == 1)
-    errordlg('Please add noise on grayscaled image first...','Error');
-else
-    f = -1 * ones(5,5);
-    f(3,3) = 24;
-    disp(f)
-    fimage = imfilter(noise, f);
-    axes(handles.axes5);
-    imshow(uint8(fimage));
-end
+f = -1 * ones(5,5);
+f(3,3) = 24;
+disp(f)
+fimage = imfilter(noise, f);
+axes(handles.axes5);
+imshow(uint8(fimage));
+
 
 % --- Executes on button press in hpf7.
 function hpf7_Callback(hObject, eventdata, handles)
@@ -297,17 +271,13 @@ function hpf7_Callback(hObject, eventdata, handles)
 % Hint: get(hObject,'Value') returns toggle state of hpf7
 global noise;
 
-empty = isempty(get(handles.axes4, 'Children'));
-if (empty == 1)
-    errordlg('Please add noise on grayscaled image first...','Error');
-else
-    f = -1 * ones(7,7);
-    f(4,4) = 48;
-    disp(f)
-    fimage = imfilter(noise, f);
-    axes(handles.axes5);
-    imshow(uint8(fimage));
-end
+f = -1 * ones(7,7);
+f(4,4) = 48;
+disp(f)
+fimage = imfilter(noise, f);
+axes(handles.axes5);
+imshow(uint8(fimage));
+
 
 % --- Executes on button press in hpf9.
 function hpf9_Callback(hObject, eventdata, handles)
@@ -318,17 +288,13 @@ function hpf9_Callback(hObject, eventdata, handles)
 % Hint: get(hObject,'Value') returns toggle state of hpf9
 global noise;
 
-empty = isempty(get(handles.axes4, 'Children'));
-if (empty == 1)
-    errordlg('Please add noise on grayscaled image first...','Error');
-else
-    f = -1 * ones(9,9);
-    f(5,5) = 80;
-    disp(f)
-    fimage = imfilter(noise, f);
-    axes(handles.axes5);
-    imshow(uint8(fimage));
-end
+f = -1 * ones(9,9);
+f(5,5) = 80;
+disp(f)
+fimage = imfilter(noise, f);
+axes(handles.axes5);
+imshow(uint8(fimage));
+
 
 % --- Executes on button press in median3.
 function median3_Callback(hObject, eventdata, handles)
@@ -339,14 +305,10 @@ function median3_Callback(hObject, eventdata, handles)
 % Hint: get(hObject,'Value') returns toggle state of median3
 global noise;
 
-empty = isempty(get(handles.axes4, 'Children'));
-if (empty == 1)
-    errordlg('Please add noise on grayscaled image first...','Error');
-else
-    fimage = medfilt2(noise, [3 3]);
-    axes(handles.axes5);
-    imshow(uint8(fimage));
-end
+fimage = medfilt2(noise, [3 3]);
+axes(handles.axes5);
+imshow(uint8(fimage));
+
 
 % --- Executes on button press in median5.
 function median5_Callback(hObject, eventdata, handles)
@@ -357,14 +319,10 @@ function median5_Callback(hObject, eventdata, handles)
 % Hint: get(hObject,'Value') returns toggle state of median5
 global noise;
 
-empty = isempty(get(handles.axes4, 'Children'));
-if (empty == 1)
-    errordlg('Please add noise on grayscaled image first...','Error');
-else
-    fimage = medfilt2(noise, [5 5]);
-    axes(handles.axes5);
-    imshow(uint8(fimage));
-end
+fimage = medfilt2(noise, [5 5]);
+axes(handles.axes5);
+imshow(uint8(fimage));
+
 
 % --- Executes on button press in median7.
 function median7_Callback(hObject, eventdata, handles)
@@ -375,14 +333,10 @@ function median7_Callback(hObject, eventdata, handles)
 % Hint: get(hObject,'Value') returns toggle state of median7
 global noise;
 
-empty = isempty(get(handles.axes4, 'Children'));
-if (empty == 1)
-    errordlg('Please add noise on grayscaled image first...','Error');
-else
-    fimage = medfilt2(noise, [7 7]);
-    axes(handles.axes5);
-    imshow(uint8(fimage));
-end
+fimage = medfilt2(noise, [7 7]);
+axes(handles.axes5);
+imshow(uint8(fimage));
+
 
 % --- Executes on button press in median9.
 function median9_Callback(hObject, eventdata, handles)
@@ -393,14 +347,10 @@ function median9_Callback(hObject, eventdata, handles)
 % Hint: get(hObject,'Value') returns toggle state of median9
 global noise;
 
-empty = isempty(get(handles.axes4, 'Children'));
-if (empty == 1)
-    errordlg('Please add noise on grayscaled image first...','Error');
-else
-    fimage = medfilt2(noise, [9 9]);
-    axes(handles.axes5);
-    imshow(uint8(fimage));
-end
+fimage = medfilt2(noise, [9 9]);
+axes(handles.axes5);
+imshow(uint8(fimage));
+
 
 % --- Executes on button press in maxBright.
 function maxBright_Callback(hObject, eventdata, handles)
